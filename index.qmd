@@ -1,0 +1,37 @@
+---
+title: "OTexts"
+description: Online, open-access textbooks
+---
+
+![](img/slide-image-2.jpg)
+
+OTexts is an online textbook publisher. Our books are freely available to students everywhere, whether for self-learning or as part of a university courses.
+
+## Our books
+
+
+<table>
+  <tr>
+    <td width="40%"><a href="https://OTexts.com/fpp2"><img src="https://otexts.com/img/fpp2_cover.jpg" width=100%></a></td>
+    <td width="40%"><a href="https://OTexts.com/fpp3"><img src="https://otexts.com/img/fpp3_cover.jpg" width=100%></a></td>
+  </tr>
+  <tr>
+    <td valign="top">2nd edition (2018) using the forecast package</td>
+    <td valign="top">3rd edition (2021) using the tsibble, feasts and fable packages</td>
+  </tr>
+  <tr>
+  <td>
+    <a href="https://OTexts.com/fpp2"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
+    <a href="https://otexts.com/fpp2/buy-a-print-or-downloadable-version.html"><button type="submit" class="btn btn-success btn-lg">Buy</button></a>
+  </td>
+  <td>
+    <a href="https://OTexts.com/fpp3"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
+    <a href="https://otexts.com/fpp3/buy-a-print-version.html"><button type="submit" class="btn btn-success btn-lg">Buy</button></a>
+  </td>
+  </tr>
+</table>
+
+
+## Contact us
+
+<script type="text/javascript" src="https://form.jotform.com/jsform/241991715196870"></script>

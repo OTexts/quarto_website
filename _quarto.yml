@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "OTexts"
+  site-url: "https://OTexts.com"
+  favicon: img/favicon.ico
+  open-graph: true
+  search: false
+  google-analytics: "G-JKBLG3XQGY"
+  navbar:
+    background: "#8fa0af"
+    logo: img/OTexts.png
+  page-footer:
+    left: "© OTexts, Melbourne, Australia. 2024."
+    background: "#8fa0af"
+    right: Made with [Quarto](https://quarto.org)
+
+date-format: "D MMMM YYYY"
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true
+    mainfont: "Fira Sans"
+    include-in-header:
+      file: header.html
