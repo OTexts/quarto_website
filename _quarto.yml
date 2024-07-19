@@ -2,18 +2,18 @@ project:
   type: website
 
 website:
-  title: "OTexts"
+  title: "<b>OTexts</b>: Online, open-access textbooks"
   site-url: "https://OTexts.com"
   favicon: img/favicon.ico
   open-graph: true
   search: false
   google-analytics: "G-JKBLG3XQGY"
   navbar:
-    background: "#8fa0af"
+    background: "#536878"
     logo: img/OTexts.png
   page-footer:
     left: "© OTexts, Melbourne, Australia. 2024."
-    background: "#8fa0af"
+    background: "#536878"
     right: Made with [Quarto](https://quarto.org)
 
 date-format: "D MMMM YYYY"
@@ -24,5 +24,7 @@ format:
     css: styles.css
     toc: true
     mainfont: "Fira Sans"
+    grid:
+      margin-width: 0px
     include-in-header:
       file: header.html

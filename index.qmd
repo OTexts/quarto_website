@@ -1,14 +1,6 @@
----
-title: "OTexts"
-description: Online, open-access textbooks
----
-
 ![](img/slide-image-2.jpg)
 
 OTexts is an online textbook publisher. Our books are freely available to students everywhere, whether for self-learning or as part of a university courses.
-
-## Our books
-
 
 <table>
   <tr>
@@ -16,8 +8,8 @@ OTexts is an online textbook publisher. Our books are freely available to studen
     <td width="40%"><a href="https://OTexts.com/fpp3"><img src="https://otexts.com/img/fpp3_cover.jpg" width=100%></a></td>
   </tr>
   <tr>
-    <td valign="top">2nd edition (2018) using the forecast package</td>
-    <td valign="top">3rd edition (2021) using the tsibble, feasts and fable packages</td>
+    <td valign="top" bgcolor="#dddddd" style="padding: 10px;">2nd edition (2018) using the forecast package</td>
+    <td valign="top" bgcolor="#dddddd" style="padding: 10px;">3rd edition (2021) using the tsibble, feasts and fable packages</td>
   </tr>
   <tr>
   <td>

@@ -15,3 +15,7 @@
     --bs-btn-disabled-bg: #c14b14;
     --bs-btn-disabled-border-color: #c14b14;
 }
+td {
+    border: 10px solid white;
+    border-radius: 25px;
+}
