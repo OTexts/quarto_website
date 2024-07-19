@@ -23,7 +23,9 @@ OTexts is an online textbook publisher. Our books are freely available to studen
   </tr>
 </table>
 
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
 
-## Contact us
-
-<script type="text/javascript" src="https://form.jotform.com/jsform/241991715196870"></script>
+<div style="width:100%;height:500px;" data-fillout-id="orC9iJ6A8vus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>
