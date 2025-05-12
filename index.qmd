@@ -21,6 +21,17 @@ OTexts is an online textbook publisher. Our books are freely available to studen
     <a href="https://otexts.com/fpp3/buy-a-print-version.html"><button type="submit" class="btn btn-success btn-lg">Buy</button></a>
   </td>
   </tr>
+  <tr>
+    <td width="40%"><a href="https://OTexts.com/fpppy"><img src="https://otexts.com/fpppy/figs/fpppy_front_cover.jpg" width=100%></a></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#dddddd" style="padding: 10px;">Python edition (2025)</td>
+  </tr>
+  <tr>
+  <td>
+    <a href="https://OTexts.com/fpppy"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
+  </td>
+  </tr>
 </table>
 
 &nbsp;<br>
