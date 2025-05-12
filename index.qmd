@@ -4,12 +4,14 @@ OTexts is an online textbook publisher. Our books are freely available to studen
 
 <table>
   <tr>
-    <td width="40%"><a href="https://OTexts.com/fpp2"><img src="https://otexts.com/img/fpp2_cover.jpg" width=100%></a></td>
-    <td width="40%"><a href="https://OTexts.com/fpp3"><img src="https://otexts.com/img/fpp3_cover.jpg" width=100%></a></td>
+    <td width="33%"><a href="https://OTexts.com/fpp2"><img src="https://otexts.com/img/fpp2_cover.jpg" width=100%></a></td>
+    <td width="33%"><a href="https://OTexts.com/fpp3"><img src="https://otexts.com/img/fpp3_cover.jpg" width=100%></a></td>
+    <td width="33%"><a href="https://OTexts.com/fpppy"><img src="https://otexts.com/fpppy/figs/fpppy_front_cover.jpg" width=100%></a></td>
   </tr>
   <tr>
     <td valign="top" bgcolor="#dddddd" style="padding: 10px;">2nd edition (2018) using the forecast package</td>
     <td valign="top" bgcolor="#dddddd" style="padding: 10px;">3rd edition (2021) using the tsibble, feasts and fable packages</td>
+    <td valign="top" bgcolor="#dddddd" style="padding: 10px;">Python edition (2025)</td>
   </tr>
   <tr>
   <td>
@@ -20,16 +22,8 @@ OTexts is an online textbook publisher. Our books are freely available to studen
     <a href="https://OTexts.com/fpp3"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
     <a href="https://otexts.com/fpp3/buy-a-print-version.html"><button type="submit" class="btn btn-success btn-lg">Buy</button></a>
   </td>
-  </tr>
-  <tr>
-    <td width="40%"><a href="https://OTexts.com/fpppy"><img src="https://otexts.com/fpppy/figs/fpppy_front_cover.jpg" width=100%></a></td>
-  </tr>
-  <tr>
-    <td valign="top" bgcolor="#dddddd" style="padding: 10px;">Python edition (2025)</td>
-  </tr>
-  <tr>
   <td>
-    <a href="https://OTexts.com/fpppy"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
+      <a href="https://OTexts.com/fpppy"><button type="submit" class="btn btn-success btn-lg">Read online</button></a>
   </td>
   </tr>
 </table>
