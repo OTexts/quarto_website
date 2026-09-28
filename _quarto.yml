@@ -7,7 +7,6 @@ website:
   favicon: img/favicon.ico
   open-graph: true
   search: false
-  google-analytics: "G-JKBLG3XQGY"
   navbar:
     background: "#536878"
     logo: img/OTexts.png

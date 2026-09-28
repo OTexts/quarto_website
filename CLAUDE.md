@@ -16,10 +16,10 @@ make clean        # Remove _site/
 This is a minimal single-page Quarto website for [OTexts.com](https://OTexts.com), a catalog of open-access textbooks. The site has two content pages (`index.qmd`, `404.qmd`) and no subdirectories.
 
 **Key files:**
-- [_quarto.yml](_quarto.yml) — site config: theme (Tango), navbar/footer colors (#536878), Google Analytics, Fira Sans font
+- [_quarto.yml](_quarto.yml) — site config: theme (Tango), navbar/footer colors (#536878), GoatCounter analytics, Fira Sans font
 - [index.qmd](index.qmd) — homepage with book catalog (FPP2, FPP3, Python edition) displayed in a 3-column responsive grid
 - [styles.css](styles.css) — custom button styles (orange #c14b14, blue hover #234460) and table overrides
-- [header.html](header.html) — Fira Sans font import
+- [header.html](header.html) — Fira Sans font import and GoatCounter analytics snippet
 - [.htaccess](.htaccess) — Apache config; copied into `_site/` at deploy time (not auto-copied by Quarto)
 
 **Deployment:** rsync to SiteGround via SSH on port 18765. The `.htaccess` file must be manually copied before rsync (`make deploy` handles this).
