@@ -11,6 +11,7 @@ build:
 deploy: build
 	cp .htaccess _site
 	rsync -zrvce 'ssh -p 18765' _site/ u192-zw4zvui1lqsb@m80.siteground.biz:www/otexts.com/public_html
+	touch .deployed
 
 clean:
 	rm -rf _site
