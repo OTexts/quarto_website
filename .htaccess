@@ -123,4 +123,9 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.html$">
     Header set Cache-Control "no-cache"
   </FilesMatch>
+  # Let browsers keep images, fonts, CSS, JS, PDFs and media for a month.
+  # Search indexes and feeds (json, xml) are left to recheck.
+  <FilesMatch "(?i)\.(css|js|mjs|png|jpe?g|gif|webp|avif|svg|ico|woff2?|ttf|otf|eot|pdf|mp4|webm|mp3|zip)$">
+    Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
 </IfModule>
