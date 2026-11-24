@@ -115,3 +115,12 @@ RewriteCond %{HTTP_HOST} ^otexts\.robjhyndman\.com$ [NC]
 RewriteRule ^ https://otexts.com%{REQUEST_URI} [R=301,L]
 
 ErrorDocument 404 /404.html
+
+# Keep HTML out of SiteGround's Dynamic Cache (which has no off switch) and
+# make browsers recheck it, so a new deploy or redirect shows up at once.
+# Unchanged pages still come back as cheap 304s, thanks to their ETags.
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
