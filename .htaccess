@@ -104,8 +104,14 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteRule .* - [F,L]
 #end of Siteground rules
 
+# Each book folder has its own .htaccess with rewrite rules, which would
+# otherwise replace these, so make every folder run these rules first.
+# Inherited rules match against the path within the subfolder, so the
+# redirect uses REQUEST_URI (the full path) instead of a captured $1.
+RewriteOptions InheritDownBefore
+
 RewriteCond %{HTTP_HOST} ^www\.otexts\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^otexts\.robjhyndman\.com$ [NC]
-RewriteRule  ^(.*)$ https://otexts.com/$1 [R=301,L]
+RewriteRule ^ https://otexts.com%{REQUEST_URI} [R=301,L]
 
 ErrorDocument 404 /404.html
